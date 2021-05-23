@@ -1,0 +1,37 @@
+body {
+    background: #18181A;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 30pt;
+    text-decoration: #ffa839 underline;
+}
+
+#img-whatsapp {
+    background: #ffa839;
+    padding: 40px;
+    border-radius: 11%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    width: 500px;
+
+    animation-name: zoomzao;
+    animation-duration: 5s;
+}
+
+@keyframes zoomzao {
+    from {
+        width: 0px;
+    }
+    to {
+        width: 500px;
+    }
+  }
+  
